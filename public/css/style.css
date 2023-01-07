@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow-x: hidden;
+}
+
+nav{
+    background-color: #ffffff;
+}
+
+.navbar-brand img{
+    max-height: 50px;
+}
+
+.navbar-brand #logo{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: rgb(12, 189, 56);
+
+}
+
+nav ul li a{
+    margin: auto 10px;
+}
+
+
+nav ul li a:hover{
+    font-weight: bold;
+    color: green;
+}
+
+
+section{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+section h1{
+    color: rgb(12, 189, 56);
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+section p{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+button{
+    border-radius: 50px !important;
+    background-color: rgb(12, 189, 56);
+    color: white;
+}
+
+header{
+    
+    padding: 400px 0 165px;
+	margin-top: -70px;
+	background-image: url('../image/dk.jpg');
+	background-size: cover;
+    height: 100%;
+}
+
+header h1{
+    margin-bottom: -100px;
+}
+#hero .col{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+#hero .header{
+    margin-bottom: 150px;
+}
+
+
+#hero .img-col{
+    justify-content: flex-end;
+    margin-top: 200px;
+}
+
+#hero img{
+    max-width: 130% !important;
+    width: 130%;
+}
+
+
+#hero .card{
+    box-shadow: 11px 7px 10px #f0f0f0;
+    border: 0;
+    text-align: center;
+}
+
+#hero .icon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+
+#projects img{
+    max-height: 150px;
+}
+
+
+#footer{
+    background-color: green;
+}
+
+#footer p{
+    font-weight: 200;
+    font-size: 20px;
+    color: wheat;
+}
